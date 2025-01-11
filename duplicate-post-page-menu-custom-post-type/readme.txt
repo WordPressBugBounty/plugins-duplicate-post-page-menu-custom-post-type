@@ -4,7 +4,7 @@ Tags: duplicate page, copy menu, clone, duplicate custom-post, copy
 Donate link: http://www.inqsys.com/donate/
 Requires at least:5.0
 Tested up to: 6.7.1
-Stable tag: 3.0.0
+Stable tag: 3.0.1
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -78,6 +78,9 @@ If you find this useful, <a href='https://www.inqsys.com/donate/' target='_new'>
 </ol>
 
 == Changelog ==
+<ul><li>3.0.1</li><ul>
+<li>Fixed: Minor bug fixes in php.</li>
+</ul></ul>
 <ul><li>3.0.0</li><ul>
 <li>Optimized: PHP and JS optimized.</li>
 <li>Tested for WP 6.7.1</li>

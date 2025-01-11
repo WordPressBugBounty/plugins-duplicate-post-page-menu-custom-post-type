@@ -3,7 +3,7 @@
  *   Plugin Name: Duplicate Post Page Menu & Custom Post Type
  *   Description: The best plugin to duplicate post, page, menu and custom post type multiple times in a single click.
  *   Author: Inqsys Technology
- *   Version: 3.0.0
+ *   Version: 3.0.1
  *   Text Domain: duplicate-ppmc
  *   Author URI: http://www.inqsys.com/
  *
@@ -13,7 +13,7 @@
 /* Check for WordPress installation */
 
 define( 'PPMC_URL', plugin_dir_url( __FILE__ ) );
-define( 'PPMC_V', '3.0.0' );
+define( 'PPMC_V', '3.0.1' );
 
 if ( ! function_exists( 'add_action' ) ) {
 
@@ -141,7 +141,7 @@ if ( ! class_exists( 'Duplicate_PPMC_Init' ) ) {
 				update_option( 'ppmc_next_period_ratings', gmdate( 'Y-m-d h:i:s', strtotime( '+6 months' ) ) );
 			}
 
-			if ( tru !== $support && $diff_days >= 2 ) {
+			if ( 'true' !== $support && $diff_days >= 2 ) {
 
 				$html  = "<div class='notice notice-info important' id='message' style='padding: 10px;position:relative;line-height:30px;'>";
 				$html .= 'Thank you for choosing <strong>Duplicate Post Page Menu & Custom Post Type.</strong>';
